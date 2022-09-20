@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        img {
+            width: 400px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            /* 滤镜属性 
+            * grayscale: 灰度
+            * blur: 模糊
+            * brightness: 亮度
+            * contrast: 对比度
+            * drop-shadow: 阴影
+            * invert: 反色
+            * opacity: 透明度
+            * saturate: 饱和度
+            * sepia: 褐色
+            */
+            filter: grayscale(100%);
+            transition: all 3s;
+        }
+
+        img:hover {
+            filter: none;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./img/t2.jpg" alt="">
+</body>
+
+</html>
